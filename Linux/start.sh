@@ -21,21 +21,19 @@ do
             cd -
             break
             ;;
-        "Install Portainer")
-            cd portainer/ && bash ubuntu_1804_install_portainer.sh
-            cd -
-            break
-            ;;
+            
         "Install Traefik")
             cd traefik/ && bash ubuntu_1804_install_traefik.sh
             cd -
             break
             ;;
+            
          "Install Guacamole with Local User Authentication")
             cd guacamole/ && bash ubuntu_1804_install_guacamole.sh
             cd -
             break
             ;;
+            
         "Install Guacamole with LDAP User Authentication")
             cd guacamole/ && bash ubuntu_1804_install_guacamole_ldap.sh
             cd -
@@ -47,24 +45,12 @@ do
             cd -
             break
             ;;
-    
+
         "Install Nextcloud")
             cd nextcloud/ && bash ubuntu_1804_install_nextcloud.sh
             cd -
             break
-            ;;
-
-        "Install OnlyOffice")
-            cd onlyoffice/ && bash ubuntu_1804_install_onlyoffice.sh
-            cd -
-            break
-            ;;
-
-    "Install Collabora")
-            cd collabora/ && bash ubuntu_install_collabora.sh
-            cd -
-            break
-            ;;            
+            ;;       
         
         "Exit")
             echo "Exiting...."
